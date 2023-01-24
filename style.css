@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 8px;
+}
+.option{
+    color: #55595d;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.option .material-symbols-outlined{
+    padding: 15px;
+}
+.fab{
+    padding: 20px;
+}
+.option h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.option:hover{
+    background-color: #e7e7e8;
+    border-radius: 30px;
+}
+.option.active{
+    color: #0f1419;
+}
+.tweet{
+    width: 100%;
+    background-color: #1d9bf0;
+    border: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.tweet:hover{
+    background-color: #1a8cd8;
+}
+.nav{
+    border-right: 1px solid#f1f5f5 ;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 0.2;
+}
+.fab{
+    color: #1d9bf0;
+    font-size: 25px;
+}
+.foto{
+    border-radius: 50%;
+}
+.me{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+    margin: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.duwal{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.news_header{
+    padding: 8px;
+}
+.news{
+    border-right: 1px solid #f1f5f5;
+    min-width: 600px;
+}
+.flex ul li{
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li a:hover{
+    background-color:#e7e7e8 ;
+}
+.flex{
+    border-bottom: 1px solid #f1f5f5;
+}
+.pic{
+    border-radius: 50%;
+    padding: 5px;
+}
+.attachment{
+    display: flex;
+    gap:280px;
+}
+.attach{
+    font-size: 10px;
+    color: #60b8f4;
+    cursor: pointer;
+}
+.twt{
+    border-radius: 30px;
+    width: 100px;
+    height: 33px;
+    border: none;
+    background-color: #60b8f4;
+    color: white;
+    margin-left: 10px;
+}
+.twt:hover{
+    background-color: #1d9bf0;
+    cursor: pointer;
+}
+.text{
+    height:80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+}
+.one{
+    border-radius: 50%;
+    padding: 5px;
+}
+.image{
+    display: flex;
+}
+.id{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+.rashford{
+    text-align: center;
+}
+.rashy{
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: 10px;
+}
+.logo{
+    display: flex;
+}
+.logo:hover{
+    color: #1d9bf0;
+}
+.widgets{
+    align-items: center;
+    padding: 10px;
+}
+.srch{
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #eff3f4;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.trends{
+    padding: 50px;
+    align-items: center;
+    background-color: #f7f9f9;
+    border-radius: 10px;
+}
+.trend{
+    padding: 20px;
+    color: #7a7e80;
+    cursor: pointer;
+    background-color: #f7f9f9;
+}
+.trend:hover{
+    background-color: #eff1f1;
+}
+.trending{
+    font-weight: bold;
+    color: #000;
+}
+.trend{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+.more{
+    color: #000;
+    font-weight: bold;
+}
+.more:hover{
+    color: #60b8f4;
+}
+.light{
+    color: #8d98a1;
+}
+.tweets{
+    cursor: pointer;
+}
+.tweets:hover{
+    background-color: #f7f7f7;
+}
+.material-symbols-outlined{
+    font-size: 15px;
+}
